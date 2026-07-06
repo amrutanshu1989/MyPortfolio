@@ -1,0 +1,95 @@
+import type { Book } from "@/types";
+
+export const books: Book[] = [
+  {
+    id: "book-1",
+    title: "Deep and Reinforcement Learning: Networks and Methods",
+    authors: "A. Seth, S. Algani, A. S. Sengar, S. V. Reddy, S. R. Raj, A. Panigrahi, A. Pati",
+    publisher: "NTL Publications",
+    year: 2023,
+    isbn: "978-81-19762-15-6",
+    kind: "authored",
+    link: "https://ntlpublisher.com/viewbook.php?id=32",
+  },
+  {
+    id: "book-2",
+    title: "IoT and Machine Learning",
+    authors: "A. Panigrahi, A. Pati, M. N. Das, M. Dash",
+    publisher: "SIPH Publications",
+    year: 2023,
+    isbn: "978-93-5757-714-4",
+    kind: "authored",
+    link: "https://ntlpublisher.com/viewbook.php?id=32",
+  },
+  {
+    id: "book-3",
+    title: "Fundamentals of Python Programming",
+    authors: "A. Pati, A. Panigrahi, G. Sahoo, M. Dash",
+    publisher: "SIPH Publications",
+    year: 2023,
+    isbn: "978-93-5757-588-1",
+    kind: "authored",
+    link: "https://ntlpublisher.com/viewbook.php?id=32",
+  },
+  {
+    id: "book-4",
+    title:
+      "Fortifying Cloud Environments with Blockchain and AI Integration",
+    authors: "A. Panigrahi, A. Pati, S. C. Chowdhury, S. D. Correia, W. W. Jiang",
+    publisher: "Bentham Science (Scopus Indexed)",
+    year: 2025,
+    kind: "edited",
+    description: "Approved edited volume — Call for Chapters ongoing.",
+  },
+  {
+    id: "chapter-1",
+    title:
+      "Issues and Challenges of Classical Cryptography in Cloud Computing",
+    authors: "A. Panigrahi, A. K. Nayak, R. Paul",
+    publisher: "Machine Learning Approach for Cloud Data Analytics in IoT (Wiley)",
+    year: 2021,
+    kind: "chapter",
+  },
+  {
+    id: "chapter-2",
+    title:
+      "Application of Blockchain as a Solution to the Real-World Issues in Health Care System",
+    authors: "A. Panigrahi, B. Sahu, S. S. Panigrahi, S. Khan, A. K. Jena",
+    publisher: "Intelligent Systems Reference Library (Springer)",
+    year: 2021,
+    kind: "chapter",
+  },
+  {
+    id: "chapter-3",
+    title: "Impact of Optimized Segment Routing in Software Defined Networks",
+    authors: "A. Panigrahi, B. Sahu, S. S. Panigrahi, A. K. Jena, M. S. Khan",
+    publisher: "Wiley, pp. 263–287",
+    year: 2022,
+    kind: "chapter",
+  },
+  {
+    id: "chapter-4",
+    title: "Pragmatic Analysis of Social Web Components on Semantic Web Mining",
+    authors: "S. Pani, B. Sahu, J. Mishra, S. N. Mohanty, A. Panigrahi",
+    publisher: "Wiley, pp. 83–108",
+    year: 2022,
+    kind: "chapter",
+  },
+  {
+    id: "chapter-5",
+    title:
+      "Machine learning-based integrated approach for cancer microarray data analysis",
+    authors: "A. Panigrahi, M. Dash, B. Sahu, A. Pati, S. N. Mohanty",
+    publisher: "Machine Learning for Healthcare Systems, River Publishers",
+    year: 2023,
+    kind: "chapter",
+  },
+  {
+    id: "chapter-6",
+    title: "Artificial intelligence in improving disease diagnosis",
+    authors: "A. Pati, S. R. Addula, A. Panigrahi, B. Sahu, D. S. K. Nayak, M. Dash",
+    publisher: "Artificial Intelligence in Medicine and Healthcare",
+    year: 2025,
+    kind: "chapter",
+  },
+];
