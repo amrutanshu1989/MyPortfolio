@@ -160,7 +160,7 @@ export function Hero() {
             <div className="absolute -right-4 -top-4 hidden items-center gap-2 rounded-2xl border border-border bg-background/95 px-3.5 py-2.5 shadow-lg backdrop-blur-md sm:flex">
               <FileText className="size-4 text-primary" />
               <div className="flex flex-col leading-tight">
-                <span className="text-sm font-semibold text-foreground">51+</span>
+                <span className="text-sm font-semibold text-foreground">100+</span>
                 <span className="text-[10px] text-muted-foreground">Publications</span>
               </div>
             </div>
