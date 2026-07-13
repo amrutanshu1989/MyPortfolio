@@ -19,6 +19,7 @@ const tabs = [
 ];
 
 const moreLinks = [
+  { id: "academics", label: "Academics" },
   { id: "teaching", label: "Teaching" },
   { id: "awards", label: "Awards" },
 ];
@@ -62,16 +63,25 @@ export function MobileTabBar({ active }: MobileTabBarProps) {
                 className="rounded-t-xl border border-border bg-popover p-2 shadow-lg"
                 aria-label="More navigation"
               >
-                {moreLinks.map((link) => (
-                  <a
-                    key={link.id}
-                    href={`#${link.id}`}
-                    onClick={() => setMoreOpen(false)}
-                    className="block rounded-md px-3 py-2.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
-                  >
-                    {link.label}
-                  </a>
-                ))}
+                {moreLinks.map((link) => {
+                  const isActive = active === link.id;
+                  return (
+                    <a
+                      key={link.id}
+                      href={`#${link.id}`}
+                      aria-current={isActive ? "true" : undefined}
+                      onClick={() => setMoreOpen(false)}
+                      className={cn(
+                        "block rounded-md px-3 py-2.5 text-sm font-medium transition-colors hover:bg-accent hover:text-foreground",
+                        isActive
+                          ? "bg-accent text-foreground"
+                          : "text-muted-foreground",
+                      )}
+                    >
+                      {link.label}
+                    </a>
+                  );
+                })}
               </nav>
             </motion.div>
           </>

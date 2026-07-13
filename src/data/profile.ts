@@ -87,7 +87,7 @@ export const aboutHighlights: TimelineEntry[] = [
     title: "Focused Research Experience",
     organization: "Blockchain · AI · Healthcare",
     description:
-      "Dedicated research leading to 50+ publications, 3 patents, and 3 authored books.",
+      "Dedicated research leading to 100+ publications, 3 patents, and 3 authored books.",
   },
   {
     id: "gate",

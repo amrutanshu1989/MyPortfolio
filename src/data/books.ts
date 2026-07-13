@@ -34,12 +34,30 @@ export const books: Book[] = [
   {
     id: "book-4",
     title:
-      "Fortifying Cloud Environments with Blockchain and AI Integration",
-    authors: "A. Panigrahi, A. Pati, S. C. Chowdhury, S. D. Correia, W. W. Jiang",
-    publisher: "Bentham Science (Scopus Indexed)",
-    year: 2025,
+      "Decentralized Futures: Navigating the Integration of Blockchain Technology with Artificial Intelligence",
+    authors: "A. Panigrahi, A. Pati, P. Jain, H. Liu",
+    publisher: "CRC Press",
+    year: 2026,
+    isbn: "978-1041111665",
     kind: "edited",
-    description: "Approved edited volume — Call for Chapters ongoing.",
+    description:
+      "A comprehensive look at blockchain technology, security frameworks, and AI integration for safer, higher-performing decentralized systems.",
+    link: "https://www.amazon.in/Decentralized-Futures-Navigating-Integration-Intelligence/dp/1041111665",
+    coverImage: "/books/decentralized-futures-crc.jpg",
+  },
+  {
+    id: "book-5",
+    title:
+      "Artificial Intelligence Powered Ethical Systems, Generative Intelligence, and Societal Futures",
+    authors: "S. Chowdhury, A. Panigrahi, A. Pati",
+    publisher: "Springer Cham — Advances in Science, Technology & Innovation (ASTI)",
+    year: 2026,
+    isbn: "978-3-032-24783-4",
+    kind: "edited",
+    description:
+      "Conference proceedings exploring AI ethics, generative intelligence, and societal applications across finance, healthcare, law, and education.",
+    link: "https://link.springer.com/book/9783032247834",
+    coverImage: "/books/ai-ethical-systems-springer.png",
   },
   {
     id: "chapter-1",

@@ -5,7 +5,7 @@ import { academicPositions, academicEducation } from "@/data/journey";
 
 export function AcademicJourney() {
   return (
-    <SectionWrapper id="journey">
+    <SectionWrapper id="academics">
       <SectionHeading
         eyebrow="Academic Journey"
         title="Education & experience"

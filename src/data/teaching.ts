@@ -22,13 +22,13 @@ export const supervision = [
   {
     id: "s1",
     level: "Ph.D. Supervision",
-    detail: "1 Ph.D. scholar continuing at Siksha 'O' Anusandhan University.",
+    detail: "1 Ph.D. scholar completed at Siksha 'O' Anusandhan University (SOA).",
   },
   {
     id: "s2",
     level: "M.Tech Supervision",
     detail:
-      "2 M.Tech scholars — 1 continuing at IIT Patna, 1 continuing at Siksha 'O' Anusandhan University.",
+      "2 M.Tech scholars — 1 completed at IIT Patna, 1 ongoing at Siksha 'O' Anusandhan University (SOA).",
   },
   {
     id: "s3",

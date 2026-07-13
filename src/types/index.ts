@@ -3,6 +3,7 @@ import type { LucideIcon } from "lucide-react";
 export type SectionId =
   | "home"
   | "about"
+  | "academics"
   | "research"
   | "publications"
   | "teaching"
@@ -100,6 +101,7 @@ export interface Book {
   kind: BookKind;
   link?: string;
   description?: string;
+  coverImage?: string;
 }
 
 export interface TeachingStat {

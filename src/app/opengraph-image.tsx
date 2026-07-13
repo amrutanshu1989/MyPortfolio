@@ -70,7 +70,7 @@ export default function OpengraphImage() {
           }}
         >
           <span>Research · Teaching · Innovation</span>
-          <span>50+ Publications · 3 Patents · 3 Books</span>
+          <span>100+ Publications · 3 Patents · 3 Books</span>
         </div>
       </div>
     ),

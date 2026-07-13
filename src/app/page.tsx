@@ -1,8 +1,8 @@
 import { Hero } from "@/components/sections/hero";
 import { About } from "@/components/sections/about";
+import { AcademicJourney } from "@/components/sections/academic-journey";
 import { ResearchInterests } from "@/components/sections/research-interests";
 import { ResearchImpact } from "@/components/sections/research-impact";
-import { AcademicJourney } from "@/components/sections/academic-journey";
 import { Publications } from "@/components/sections/publications";
 import { Patents } from "@/components/sections/patents";
 import { Books } from "@/components/sections/books";
@@ -16,9 +16,9 @@ export default function Home() {
     <>
       <Hero />
       <About />
+      <AcademicJourney />
       <ResearchInterests />
       <ResearchImpact />
-      <AcademicJourney />
       <Publications />
       <Patents />
       <Books />

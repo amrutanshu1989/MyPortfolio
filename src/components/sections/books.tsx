@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { BookOpen, Library, BookMarked, ExternalLink } from "lucide-react";
 
 import {
@@ -12,11 +13,25 @@ import { Reveal } from "@/components/ui/reveal";
 import { books } from "@/data/books";
 import type { Book } from "@/types";
 
-interface CoverPlaceholderProps {
+interface BookCoverProps {
   book: Book;
 }
 
-function CoverPlaceholder({ book }: CoverPlaceholderProps) {
+function BookCover({ book }: BookCoverProps) {
+  if (book.coverImage) {
+    return (
+      <div className="relative aspect-[3/4] w-full overflow-hidden rounded-xl border border-border bg-muted/40">
+        <Image
+          src={book.coverImage}
+          alt={`Cover of ${book.title}`}
+          fill
+          sizes="(min-width: 1280px) 280px, (min-width: 768px) 33vw, 90vw"
+          className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+        />
+      </div>
+    );
+  }
+
   return (
     <div className="relative flex aspect-[3/4] w-full flex-col justify-between overflow-hidden rounded-xl border border-border bg-muted/40 p-5">
       <div className="flex items-center gap-2 text-muted-foreground">
@@ -38,7 +53,7 @@ function BookCard({ book }: BookCardProps) {
   return (
     <Card className="group h-full flex flex-col overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:border-foreground/25">
       <div className="p-4 pb-0">
-        <CoverPlaceholder book={book} />
+        <BookCover book={book} />
       </div>
       <CardContent className="flex flex-1 flex-col gap-2 p-4 pt-4">
         <h3 className="line-clamp-2 break-words text-sm font-semibold leading-snug tracking-tight text-foreground">

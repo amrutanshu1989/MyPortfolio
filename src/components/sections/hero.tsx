@@ -13,7 +13,7 @@ import { contactLinks } from "@/data/profile";
 import { researchImpact } from "@/data/impact";
 
 const heroStats = researchImpact.filter((s) =>
-  ["pubs", "patents", "books"].includes(s.id),
+  ["pubs", "patents", "books", "books-edited"].includes(s.id),
 );
 
 const heroSocials = contactLinks.filter((l) =>
@@ -144,11 +144,11 @@ export function Hero() {
           <div className="relative mx-auto w-full max-w-sm">
             <div className="relative aspect-[4/5] overflow-hidden rounded-3xl border border-border bg-linear-to-b from-muted/60 to-muted/20 shadow-xl shadow-foreground/5">
               <Image
-                src="/WhatsApp%20Image%202026-07-06%20at%207.28.45%20PM.jpeg"
+                src="/profile.jpg"
                 alt="Dr. Amrutanshu Panigrahi"
                 fill
                 sizes="(min-width: 1024px) 384px, 90vw"
-                className="object-cover"
+                className="object-cover object-top"
                 priority
               />
               <div className="absolute inset-x-0 bottom-0 bg-linear-to-t from-black/70 via-black/10 to-transparent px-4 pb-4 pt-10 text-white">

@@ -7,7 +7,7 @@ export const siteConfig: SiteConfig = {
   tagline:
     "Researcher working in Blockchain, Artificial Intelligence, Machine Learning, Healthcare AI, Cloud Computing, and Emerging Technologies.",
   description:
-    "Dr. Amrutanshu Panigrahi is an Assistant Professor, Postdoctoral Research Fellow, and researcher in Blockchain, Artificial Intelligence, Machine Learning, Healthcare AI, and Cloud Computing with 50+ publications and 3 patents.",
+    "Dr. Amrutanshu Panigrahi is an Assistant Professor, Postdoctoral Research Fellow, and researcher in Blockchain, Artificial Intelligence, Machine Learning, Healthcare AI, and Cloud Computing with 100+ publications and 3 patents.",
   url: "https://amrutanshupanigrahi.com",
   keywords: [
     "Amrutanshu Panigrahi",
@@ -28,6 +28,7 @@ export const siteConfig: SiteConfig = {
 export const navLinks: NavLink[] = [
   { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
+  { label: "Academics", href: "#academics" },
   { label: "Research", href: "#research" },
   { label: "Publications", href: "#publications" },
   { label: "Teaching", href: "#teaching" },
@@ -38,6 +39,7 @@ export const navLinks: NavLink[] = [
 export const sectionIds: SectionId[] = [
   "home",
   "about",
+  "academics",
   "research",
   "publications",
   "teaching",
