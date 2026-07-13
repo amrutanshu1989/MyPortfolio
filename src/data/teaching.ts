@@ -2,7 +2,7 @@ import type { TeachingStat, CourseItem } from "@/types";
 
 export const teachingStats: TeachingStat[] = [
   { id: "years", value: 7, suffix: "+", label: "Years Teaching" },
-  { id: "phd", value: 1, label: "Ph.D. Scholar" },
+  { id: "phd", value: 2, label: "Ph.D. Scholars" },
   { id: "mtech", value: 2, label: "M.Tech Scholars" },
   { id: "ug", value: 24, suffix: "+", label: "UG Students Mentored" },
 ];
@@ -22,7 +22,7 @@ export const supervision = [
   {
     id: "s1",
     level: "Ph.D. Supervision",
-    detail: "1 Ph.D. scholar completed at Siksha 'O' Anusandhan University (SOA).",
+    detail: "2 Ph.D. scholars ongoing at Siksha 'O' Anusandhan University (SOA).",
   },
   {
     id: "s2",

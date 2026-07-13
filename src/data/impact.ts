@@ -13,10 +13,10 @@ export const researchImpact: Stat[] = [
 export const researchScholars = [
   {
     id: "phd-soa",
-    count: 1,
-    role: "Ph.D. Scholar",
+    count: 2,
+    role: "Ph.D. Scholars",
     institution: "Siksha 'O' Anusandhan University (SOA)",
-    status: "Completed",
+    status: "Ongoing",
   },
   {
     id: "mtech-iitp",

@@ -3,8 +3,6 @@
 import * as React from "react";
 import Lenis from "lenis";
 
-const HEADER_OFFSET = 80;
-
 export function SmoothScroll() {
   React.useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
@@ -33,7 +31,15 @@ export function SmoothScroll() {
       if (!target) return;
 
       e.preventDefault();
-      lenis.scrollTo(target, { offset: -HEADER_OFFSET });
+      window.history.pushState(null, "", `#${id}`);
+
+      // Lenis already respects CSS scroll-margin-top (scroll-mt-*).
+      // Do not also pass a negative offset — that double-counts the header
+      // and lands short of the target section (e.g. Academics → About).
+      lenis.scrollTo(target, {
+        lock: true,
+        duration: 1.1,
+      });
     };
     document.addEventListener("click", onClick);
 
