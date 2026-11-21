@@ -3,7 +3,7 @@ import type { SiteConfig, NavLink, SectionId } from "@/types";
 export const siteConfig: SiteConfig = {
   name: "Dr. Amrutanshu Panigrahi",
   shortName: "Amrutanshu Panigrahi",
-  roles: ["Assistant Professor", "Researcher", "Postdoctoral Fellow"],
+  roles: ["Associate Professor", "Researcher", "Postdoctoral Fellow"],
   tagline:
     "Researcher working in Blockchain, Artificial Intelligence, Machine Learning, Healthcare AI, Cloud Computing, and Emerging Technologies.",
   description:

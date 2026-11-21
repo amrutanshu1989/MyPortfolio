@@ -152,7 +152,7 @@ export function Hero() {
                 priority
               />
               <div className="absolute inset-x-0 bottom-0 bg-linear-to-t from-black/70 via-black/10 to-transparent px-4 pb-4 pt-10 text-white">
-                <p className="text-sm font-medium">Assistant Professor</p>
+                <p className="text-sm font-medium">Associate Professor</p>
                 <p className="text-xs text-white/70">Postdoctoral Fellow</p>
               </div>
             </div>

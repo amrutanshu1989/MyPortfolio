@@ -12,14 +12,23 @@ export const academicPositions: TimelineEntry[] = [
     current: true,
   },
   {
-    id: "asst-prof-soa",
-    period: "2023 — Present",
-    title: "Assistant Professor, Dept. of CSE",
+    id: "assoc-prof-soa",
+    period: "2026 — Present",
+    title: "Associate Professor, Dept. of CSE",
     organization: "Siksha 'O' Anusandhan (Deemed to be University)",
     location: "Bhubaneswar, Odisha",
     description:
       "Teaching UG and PG courses while leading research in blockchain and machine learning.",
     current: true,
+  },
+  {
+    id: "asst-prof-soa",
+    period: "2023 — 2026",
+    title: "Assistant Professor, Dept. of CSE",
+    organization: "Siksha 'O' Anusandhan (Deemed to be University)",
+    location: "Bhubaneswar, Odisha",
+    description:
+      "Teaching UG and PG courses while leading research in blockchain and machine learning.",
   },
   {
     id: "research-scholar",
