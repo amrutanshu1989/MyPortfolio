@@ -2,6 +2,14 @@ import type { AwardEntry } from "@/types";
 
 export const awards: AwardEntry[] = [
   {
+    id: "a6",
+    year: "2027",
+    title: "Program Chair",
+    context:
+      "4th International Conference on Intelligent and Cloud Computing (ICoICC)",
+    type: "role",
+  },
+  {
     id: "a3",
     year: "2025",
     title: "Publication Chair",
